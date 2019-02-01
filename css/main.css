@@ -1,0 +1,383 @@
+/*---------- Fonts ----------*/
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Poppins-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Poppins-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Poppins-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Poppins-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url('../fonts/PlayfairDisplay-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PlayfairDisplay-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PlayfairDisplay-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PlayfairDisplay-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url('../fonts/LeagueSpartan-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/LeagueSpartan-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/LeagueSpartan-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/LeagueSpartan-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/LeagueSpartan-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/*---------- Specification ----------*/
+
+body {
+	font-family: 'LeagueSpartan-Bold';
+	padding: 0;
+	margin: 0;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: ;
+    line-height: ;
+    margin-bottom: ;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	line-height: ;
+}
+
+h2 {
+	text-align: center;
+	color: ;
+}
+
+section {
+	padding-top: ;
+}
+
+.section-title {
+	font-family: 'PlayfairDisplay-Bold';
+	font-size: 42px;
+	color: #333333;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a {
+	transition: all 0.5s ease;
+}
+
+.no-padding-r {
+	padding-right: 0;
+}
+
+/*.button {
+	display: block;
+	border: ;
+	color: ;
+	font-weight: bold;
+	font-size: ;
+	width: ;
+	padding: ;
+	border-radius: ;
+	text-align: center;
+}*/
+
+/*---------- 1-st screen ----------*/
+.header {
+	position: relative;
+}
+
+.logo {
+	/*margin-left: 82px;*/
+	margin-top: 38px;
+}
+
+.menu-items {
+	margin-top: 60px;
+	width: 410px;
+}
+
+.pb-60 {
+	padding-bottom: 60px;
+}
+
+.menu-item {
+	font-family: 'LeagueSpartan-Bold';
+	color: #3b3c3e;
+	font-size: 9px;
+	letter-spacing: .62em;
+	text-transform: uppercase;
+}
+.pos-top{
+	top: 0;
+	right: 0;
+}
+.side-text {
+	font-family: 'LeagueSpartan-Bold';
+	font-size: 9px;
+	letter-spacing: .6em;
+	margin-top: 58px;
+	-webkit-writing-mode: vertical-rl; 
+	writing-mode: tb-rl;
+	transform: rotate(180deg);
+	color: #0b0c11;
+	opacity: 0.2;
+	text-transform: uppercase;
+}
+
+.offer {
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	left: calc(-16.666667% - 25px);
+}
+
+.offer__word {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: .6em;
+	color: #5da8ef;
+}
+
+.offer__title {
+	font-family: 'PlayfairDisplay-Bold';
+	font-size: 62px;
+}
+
+.offer__text {
+	font-family: 'Poppins-Light';
+	font-size: 14px;
+	letter-spacing: .025em;
+	color: #8f8f8f;
+	width: 44%;
+}
+
+.offer-pic {
+}
+
+.offer-pic img{
+	box-shadow: -20px 30px 65px 0px rgba(11,12,17,0.2)
+}
+
+.social-links {
+	right: 0;
+	bottom: 0;
+}
+
+.social-links-item { 
+	color: #ebebeb;
+	padding-top: 35px;
+	font-size: 16px;
+}
+/*---------- 2-nd screen ----------*/
+.blockquote {
+	font-family: 'PlayfairDisplay-Bold';
+	font-weight: 100;
+	padding-top: 60px;
+	color: #333333;
+	padding: 100px 420px 0;
+}
+
+.blockquote-footer::before {
+    content: "";
+}
+
+.blockquote-footer::after {
+    content: "-";
+}
+
+.blockquote::after {
+	margin: 55px auto;
+	content: "";
+	display: block;
+	width: 2px;
+	height: 100px;
+	background-color: #5da8ef;
+}
+
+/*---------- 3-rd screen ----------*/
+.media {
+	padding-bottom: 195px;
+}
+.wrap-media-pic1 {
+	/*z-index: -1;*/
+}
+.wrap-media-pic1 img, .wrap-media-pic2 img{
+	width: 100%;
+}
+
+.media-text-wrap {
+	padding: 55px 210px 0px 115px;
+}
+
+.pos-right {
+	right: 0;
+}
+.wrap-media-pic2{
+	padding-top: 40px; 
+}
+
+.media-text {
+	font-family: 'Poppins-Light';
+	font-size: 14px;
+	color: #616161;
+	padding-bottom: 40px;
+}
+
+.media-link {
+	font-family: 'LeagueSpartan-Bold';
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #333333;
+	text-decoration: none;
+	padding-bottom: 10px; 
+}
+
+.media-link {
+	/*display: block;*/
+    position: relative;
+    transition: color .3s ease;
+}
+
+.media-link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    width: 0;
+    height: 2px;
+    z-index: 2;
+}
+
+/*.media-link:before {
+    background-color: #5b4295;
+    transition: all .25s cubic-bezier(.694,.048,.335,1) .15s;
+}*/
+
+.media-link:after {
+    background-color: #8cc1f3;
+    transition: all .25s cubic-bezier(.694,.048,.335,1);
+}
+.media-link:hover {
+	text-decoration: none;
+	color: #333333;
+}
+
+.media-link:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+/*---------- 4-th screen (Shop)----------*/
+
+.shop-word {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: .6em;
+	color: #5da8ef;
+	padding-bottom: 10px;
+}
+
+.shop-title {
+	padding-bottom: 50px;
+}
+
+.card-wrap {
+	position: relative;
+}
+
+.board {
+	position: absolute;
+	top: 200px;
+	left: 215px;
+}
+
+.board-type {
+	font-family: 'Poppins-Light';
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.board-name {
+	font-family: 'PlayfairDisplay-Bold';
+	font-size: 26px;
+}
+
+.board-price {
+	font-family: 'Poppins-Light';
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ce60a8;
+	padding: 38px 55px 10px 55px;
+}
+
+.board-buy {
+	font-family: 'LeagueSpartan-Bold';
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: .6em;
+	padding-left: 60px;
+}
+
+.card-pic {
+	padding-bottom: 28px;
+	padding-left: 66px;
+}
+
+.card-back::after {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	background-color: #e9e9e9;
+	height: 320px;
+	width: 250px;
+	bottom: 0;
+	left: 0;
+} 
+
+/*------------- Footer -------------*/
+
+
+
+/*---------- Media Queries ----------*/
+
+/* Large 992px - 1200px */
+/*@media screen and (max-width: 1200px) {
+	
+}*/
+
+/* Medium 768px - 992px */
+/*@media screen and (max-width: 992px) {
+	
+}*/
+
+/* Small 576px - 768px */
+/*@media screen and (max-width: 768px) {
+	
+}*/
+
+/* Extra small 320px - 576px */
+/*@media screen and (max-width: 576px) {
+	
+}*/
